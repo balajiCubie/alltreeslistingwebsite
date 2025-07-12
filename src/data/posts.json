@@ -1,0 +1,20 @@
+[
+  {
+    "id": "benefits-of-neem",
+    "title": "The Amazing Benefits of Neem Trees",
+    "authorId": "john-doe",
+    "date": "2023-03-15",
+    "tags": ["medicinal", "neem", "sustainability"],
+    "excerpt": "Discover the incredible health and environmental benefits of the versatile Neem tree.",
+    "content": "Full content of the blog post about Neem benefits..."
+  },
+  {
+    "id": "urban-tree-planting",
+    "title": "Guide to Urban Tree Planting",
+    "authorId": "jane-smith",
+    "date": "2023-04-01",
+    "tags": ["urban forestry", "planting", "community"],
+    "excerpt": "A comprehensive guide for successful tree planting in urban environments.",
+    "content": "Full content of the guide to urban tree planting..."
+  }
+]

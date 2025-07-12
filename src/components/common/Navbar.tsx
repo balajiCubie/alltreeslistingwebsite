@@ -7,6 +7,7 @@ import { SearchBar } from './SearchBar'
 import UserMenu from './UserMenu'
 import MobileMenu from './MobileMenu'
 import { useState } from 'react'
+import { useTheme } from '../providers/ThemeProvider'
 
 export default function Navbar() {
   const [isMobileOpen, setIsMobileOpen] = useState(false)
@@ -32,6 +33,7 @@ export default function Navbar() {
         <div className="flex items-center space-x-4">
           <SearchBar />
           <Link href="/donate" className="px-3 py-1 bg-green-600 text-white rounded">Donate</Link>
+          <ThemeToggle />
           <UserMenu />
           {/* Hamburger */}
           <button
@@ -50,4 +52,22 @@ export default function Navbar() {
       {isMobileOpen && <MobileMenu onClose={() => setIsMobileOpen(false)} />}
     </header>
   )
+}
+
+function ThemeToggle() {
+  const { theme, setTheme } = useTheme();
+
+  const toggleTheme = () => {
+    setTheme(theme === 'light' ? 'dark' : 'light');
+  };
+
+  return (
+    <button
+      onClick={toggleTheme}
+      className="p-2 rounded-full bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200"
+      aria-label="Toggle theme"
+    >
+      {theme === 'light' ? '🌙' : '☀️'}
+    </button>
+  );
 }

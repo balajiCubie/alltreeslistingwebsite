@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "azadirachta-indica",
+    "commonName": "Neem",
+    "scientificName": "Azadirachta indica",
+    "status": "Least Concern",
+    "region": ["India"],
+    "image": "/images/trees/neem.jpg"
+  },
+  {
+    "slug": "quercus-robur",
+    "commonName": "Common Oak",
+    "scientificName": "Quercus robur",
+    "status": "Least Concern",
+    "region": ["Europe"],
+    "image": "/images/trees/oak.jpg"
+  },
+  {
+    "slug": "acer-saccharum",
+    "commonName": "Sugar Maple",
+    "scientificName": "Acer saccharum",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/sugar-maple.jpg"
+  },
+  {
+    "slug": "pinus-strobus",
+    "commonName": "Eastern White Pine",
+    "scientificName": "Pinus strobus",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/eastern-white-pine.jpg"
+  },
+  {
+    "slug": "ficus-religiosa",
+    "commonName": "Peepal",
+    "scientificName": "Ficus religiosa",
+    "status": "Least Concern",
+    "region": ["Asia"],
+    "image": "/images/trees/peepal.jpg"
+  },
+  {
+    "slug": "ginkgo-biloba",
+    "commonName": "Ginkgo",
+    "scientificName": "Ginkgo biloba",
+    "status": "Endangered",
+    "region": ["China"],
+    "image": "/images/trees/ginkgo.jpg"
+  },
+  {
+    "slug": "sequoiadendron-giganteum",
+    "commonName": "Giant Sequoia",
+    "scientificName": "Sequoiadendron giganteum",
+    "status": "Endangered",
+    "region": ["North America"],
+    "image": "/images/trees/giant-sequoia.jpg"
+  },
+  {
+    "slug": "adansonia-digitata",
+    "commonName": "Baobab",
+    "scientificName": "Adansonia digitata",
+    "status": "Least Concern",
+    "region": ["Africa"],
+    "image": "/images/trees/baobab.jpg"
+  },
+  {
+    "slug": "eucalyptus-globulus",
+    "commonName": "Blue Gum",
+    "scientificName": "Eucalyptus globulus",
+    "status": "Least Concern",
+    "region": ["Australia"],
+    "image": "/images/trees/blue-gum.jpg"
+  },
+  {
+    "slug": "salix-babylonica",
+    "commonName": "Weeping Willow",
+    "scientificName": "Salix babylonica",
+    "status": "Least Concern",
+    "region": ["China"],
+    "image": "/images/trees/weeping-willow.jpg"
+  },
+  {
+    "slug": "betula-pendula",
+    "commonName": "Silver Birch",
+    "scientificName": "Betula pendula",
+    "status": "Least Concern",
+    "region": ["Europe"],
+    "image": "/images/trees/silver-birch.jpg"
+  },
+  {
+    "slug": "populus-tremuloides",
+    "commonName": "Quaking Aspen",
+    "scientificName": "Populus tremuloides",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/quaking-aspen.jpg"
+  },
+  {
+    "slug": "tilia-cordata",
+    "commonName": "Littleleaf Linden",
+    "scientificName": "Tilia cordata",
+    "status": "Least Concern",
+    "region": ["Europe"],
+    "image": "/images/trees/littleleaf-linden.jpg"
+  },
+  {
+    "slug": "ulmus-americana",
+    "commonName": "American Elm",
+    "scientificName": "Ulmus americana",
+    "status": "Critically Endangered",
+    "region": ["North America"],
+    "image": "/images/trees/american-elm.jpg"
+  },
+  {
+    "slug": "platanus-occidentalis",
+    "commonName": "American Sycamore",
+    "scientificName": "Platanus occidentalis",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/american-sycamore.jpg"
+  },
+  {
+    "slug": "magnolia-grandiflora",
+    "commonName": "Southern Magnolia",
+    "scientificName": "Magnolia grandiflora",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/southern-magnolia.jpg"
+  },
+  {
+    "slug": "liquidambar-styraciflua",
+    "commonName": "Sweetgum",
+    "scientificName": "Liquidambar styraciflua",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/sweetgum.jpg"
+  },
+  {
+    "slug": "cercis-canadensis",
+    "commonName": "Eastern Redbud",
+    "scientificName": "Cercis canadensis",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/eastern-redbud.jpg"
+  },
+  {
+    "slug": "cornus-florida",
+    "commonName": "Flowering Dogwood",
+    "scientificName": "Cornus florida",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/flowering-dogwood.jpg"
+  },
+  {
+    "slug": "aesculus-hippocastanum",
+    "commonName": "Horse Chestnut",
+    "scientificName": "Aesculus hippocastanum",
+    "status": "Vulnerable",
+    "region": ["Europe"],
+    "image": "/images/trees/horse-chestnut.jpg"
+  },
+  {
+    "slug": "robinia-pseudoacacia",
+    "commonName": "Black Locust",
+    "scientificName": "Robinia pseudoacacia",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/black-locust.jpg"
+  },
+  {
+    "slug": "catalpa-bignonioides",
+    "commonName": "Southern Catalpa",
+    "scientificName": "Catalpa bignonioides",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/southern-catalpa.jpg"
+  },
+  {
+    "slug": "fraxinus-americana",
+    "commonName": "White Ash",
+    "scientificName": "Fraxinus americana",
+    "status": "Critically Endangered",
+    "region": ["North America"],
+    "image": "/images/trees/white-ash.jpg"
+  },
+  {
+    "slug": "juglans-nigra",
+    "commonName": "Black Walnut",
+    "scientificName": "Juglans nigra",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/black-walnut.jpg"
+  },
+  {
+    "slug": "morus-rubra",
+    "commonName": "Red Mulberry",
+    "scientificName": "Morus rubra",
+    "status": "Near Threatened",
+    "region": ["North America"],
+    "image": "/images/trees/red-mulberry.jpg"
+  },
+  {
+    "slug": "ostrya-virginiana",
+    "commonName": "Eastern Hophornbeam",
+    "scientificName": "Ostrya virginiana",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/eastern-hophornbeam.jpg"
+  },
+  {
+    "slug": "carpinus-caroliniana",
+    "commonName": "American Hornbeam",
+    "scientificName": "Carpinus caroliniana",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/american-hornbeam.jpg"
+  },
+  {
+    "slug": "carya-ovata",
+    "commonName": "Shagbark Hickory",
+    "scientificName": "Carya ovata",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/shagbark-hickory.jpg"
+  },
+  {
+    "slug": "nyssa-sylvatica",
+    "commonName": "Black Tupelo",
+    "scientificName": "Nyssa sylvatica",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/black-tupelo.jpg"
+  },
+  {
+    "slug": "sassafras-albidum",
+    "commonName": "Sassafras",
+    "scientificName": "Sassafras albidum",
+    "status": "Least Concern",
+    "region": ["North America"],
+    "image": "/images/trees/sassafras.jpg"
+  }
+]

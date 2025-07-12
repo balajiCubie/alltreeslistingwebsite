@@ -1,0 +1,40 @@
+{
+  "slug": "acacia-nilotica",
+  "common_name": "Babul",
+  "scientific_name": "Vachellia nilotica",
+  "family": "Fabaceae",
+  "description": "Vachellia nilotica (formerly Acacia nilotica), commonly known as Babul, is a tree in the family Fabaceae. It is native to Africa, the Middle East, and the Indian subcontinent. It is a thorny tree that grows up to 14 meters high with a dense, spherical crown. The bark is dark brown to black, deeply fissured. The leaves are bipinnate, with 3-6 pairs of pinnae, each with 10-30 pairs of leaflets. The flowers are bright golden-yellow, spherical heads, fragrant, and appear in clusters. The fruit is a flattened, hairy, indehiscent pod, constricted between the seeds. The tree is well-adapted to arid and semi-arid regions and is known for its drought resistance. It plays a significant role in traditional medicine and is also used for timber, fodder, and gum arabic production.",
+  "uses": [
+    "Fodder",
+    "Timber",
+    "Gum arabic",
+    "Traditional medicine"
+  ],
+  "habitat": "Arid and semi-arid regions",
+  "conservation_status": "Least Concern",
+  "images": [
+    "/images/acacia-nilotica/main.jpg",
+    "/images/acacia-nilotica/pods.jpg",
+    "/images/acacia-nilotica/flowers.jpg"
+  ],
+  "map_data": {
+    "latitude": 20.5937,
+    "longitude": 78.9629,
+    "zoom": 4
+  },
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Fabales",
+    "family": "Fabaceae",
+    "genus": "Vachellia",
+    "species": "Vachellia nilotica"
+  },
+  "contributors": [
+    {
+      "name": "David Lee",
+      "id": "david-lee-1"
+    }
+  ]
+}

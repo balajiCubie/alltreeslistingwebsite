@@ -9,9 +9,9 @@ export const Logo: React.FC<LogoProps> = ({ className }) => {
   return (
     <div className={`flex items-center justify-center ${className}`}>
       <Image
-        src="/next.svg" // Replace with your actual logo path
+        src="/treelistinglogo.png" // Website logo
         alt="All Trees Listing Logo"
-        width={150}
+        width={50}
         height={50}
         className="h-12 w-auto"
       />

@@ -1,0 +1,16 @@
+[
+  {
+    "id": "conservation-org-a",
+    "name": "Global Tree Conservation",
+    "logo": "/images/partners/global-tree-conservation.png",
+    "website": "https://www.globaltreeconservation.org",
+    "description": "Leading efforts in global tree preservation and reforestation."
+  },
+  {
+    "id": "eco-solutions-b",
+    "name": "Eco Solutions Inc.",
+    "logo": "/images/partners/eco-solutions.png",
+    "website": "https://www.ecosolutions.com",
+    "description": "Innovating sustainable practices for a greener planet."
+  }
+]

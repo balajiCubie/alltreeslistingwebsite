@@ -1,0 +1,40 @@
+{
+  "slug": "melia-azedarach",
+  "common_name": "Chinaberry",
+  "scientific_name": "Melia azedarach",
+  "family": "Meliaceae",
+  "description": "Melia azedarach, commonly known as the chinaberry tree, pride of India, bead-tree, Cape lilac, syringa berrytree, Persian lilac, or white cedar, is a species of deciduous tree in the mahogany family, Meliaceae, that is native to Indomalaya and Australasia. The adult tree has a rounded crown and reaches 7–12 metres (23–39 ft) in height. The leaves are bipinnate, 25–40 cm (9.8–15.7 in) long, with leaflets 2–5 cm (0.79–1.97 in) long and serrated margins. The flowers are small, fragrant, lilac, with five petals, and grow in clusters. The fruit is a drupe, marble-sized, light yellow at maturity, and persists on the tree all winter. The fruit is poisonous to humans if eaten in quantity, but is readily eaten by some birds, which then disperse the seeds.",
+  "uses": [
+    "Timber",
+    "Traditional medicine",
+    "Insecticide",
+    "Ornamental"
+  ],
+  "habitat": "Tropical and subtropical regions",
+  "conservation_status": "Least Concern",
+  "images": [
+    "/images/melia-azedarach/main.jpg",
+    "/images/melia-azedarach/fruit.jpg",
+    "/images/melia-azedarach/flowers.jpg"
+  ],
+  "map_data": {
+    "latitude": 20.5937,
+    "longitude": 78.9629,
+    "zoom": 4
+  },
+  "taxonomy": {
+    "kingdom": "Plantae",
+    "phylum": "Tracheophyta",
+    "class": "Magnoliopsida",
+    "order": "Sapindales",
+    "family": "Meliaceae",
+    "genus": "Melia",
+    "species": "Melia azedarach"
+  },
+  "contributors": [
+    {
+      "name": "Jane Smith",
+      "id": "jane-smith-1"
+    }
+  ]
+}

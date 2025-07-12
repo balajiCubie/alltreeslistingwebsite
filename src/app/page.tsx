@@ -7,7 +7,6 @@ import { GuidesShowcase } from '../components/home/GuidesShowcase';
 import { LatestPosts } from '../components/home/LatestPosts';
 import { ImpactSection } from '../components/home/ImpactSection';
 import { CTABanner } from '../components/home/CTABanner';
-import { Footer } from '../components/common/Footer'; // Assuming Footer is in common
 
 export default function Home() {
   const featuredSpeciesData = [
@@ -82,7 +81,8 @@ export default function Home() {
         buttonText="Sign Up Free"
         buttonLink="/signup"
       />
-      <Footer />
+      {/* Footer is now handled by layout.tsx, remove from here */}
+      {/* <Footer /> */}
     </>
   );
 }

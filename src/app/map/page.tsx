@@ -1,8 +1,18 @@
+import PageHeader from '../../components/common/PageHeader';
+import WorldMap from '../../components/map/WorldMap';
+import MapLegend from '../../components/map/MapLegend';
+import CTABanner from '../../components/common/CTABanner';
+
 export default function MapPage() {
   return (
-    <div>
-      <h1>Interactive Map</h1>
-      <p>This is the interactive map page.</p>
-    </div>
+    <main className="container mx-auto py-12">
+      <PageHeader
+        title="Explore Trees by Region"
+        subtitle="See where tree species grow naturally, by region, climate zone, or biodiversity hotspots."
+      />
+      <WorldMap />
+      <MapLegend />
+      <CTABanner />
+    </main>
   );
 }

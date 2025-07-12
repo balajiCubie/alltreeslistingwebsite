@@ -1,0 +1,20 @@
+{
+  "type": "Topology",
+  "arcs": [
+    [[0,0],[1,1]],
+    [[1,1],[2,2]]
+  ],
+  "objects": {
+    "countries": {
+      "type": "GeometryCollection",
+      "geometries": [
+        {"type": "Polygon", "arcs": [[0]]},
+        {"type": "Polygon", "arcs": [[1]]}
+      ]
+    }
+  },
+  "transform": {
+    "scale": [0.0036003600360036004, 0.0018001800180018002],
+    "translate": [-180, -90]
+  }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Tropical",
+    "slug": "tropical",
+    "description": "Tropical climate zones are characterized by high temperatures and significant rainfall throughout the year. They are typically found near the equator and support lush rainforests with high biodiversity.",
+    "regions": ["Indian subcontinent", "Asia", "Australia", "Africa"]
+  },
+  {
+    "name": "Subtropical",
+    "slug": "subtropical",
+    "description": "Subtropical climate zones are located poleward of the tropics, generally between 23.5° and 40° latitude in both hemispheres. They experience hot summers and mild winters, with varying rainfall patterns.",
+    "regions": ["Indian subcontinent", "Asia", "Australia", "Africa"]
+  },
+  {
+    "name": "Temperate",
+    "slug": "temperate",
+    "description": "Temperate climate zones are characterized by distinct seasons, with warm summers and cold winters. They are found in the middle latitudes and support deciduous and coniferous forests.",
+    "regions": ["Asia", "Australia"]
+  },
+  {
+    "name": "Arid",
+    "slug": "arid",
+    "description": "Arid climate zones, or deserts, are characterized by extremely low rainfall and high temperatures. They support specialized plant life adapted to dry conditions.",
+    "regions": ["Indian subcontinent", "Asia", "Australia", "Africa", "Middle East"]
+  },
+  {
+    "name": "Semi-arid",
+    "slug": "semi-arid",
+    "description": "Semi-arid climate zones receive more rainfall than arid regions but less than humid areas. They are often characterized by grasslands and shrublands, supporting drought-resistant trees.",
+    "regions": ["Indian subcontinent", "Asia", "Australia", "Africa", "Middle East"]
+  },
+  {
+    "name": "Boreal",
+    "slug": "boreal",
+    "description": "Boreal climate zones, or subarctic climates, are characterized by long, cold winters and short, cool summers. They are found in high latitudes and support coniferous forests (taiga).",
+    "regions": ["Asia"]
+  }
+]

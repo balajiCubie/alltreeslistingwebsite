@@ -1,0 +1,23 @@
+[
+  {
+    "id": "john-doe-1",
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "contributions": ["azadirachta-indica"],
+    "bio": "John is a passionate botanist with a focus on medicinal plants of the Indian subcontinent. He has contributed detailed information and images for several tree species."
+  },
+  {
+    "id": "jane-smith-1",
+    "name": "Jane Smith",
+    "email": "jane.smith@example.com",
+    "contributions": ["melia-azedarach"],
+    "bio": "Jane is an environmental enthusiast and photographer, specializing in the flora of Asia and Australia. Her contributions include high-quality images and ecological notes."
+  },
+  {
+    "id": "david-lee-1",
+    "name": "David Lee",
+    "email": "david.lee@example.com",
+    "contributions": ["acacia-nilotica"],
+    "bio": "David is a conservationist with extensive experience in arid and semi-arid regions of Africa and the Middle East. He focuses on drought-resistant species and their traditional uses."
+  }
+]

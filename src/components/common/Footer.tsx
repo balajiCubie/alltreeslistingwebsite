@@ -1,77 +1,48 @@
-import React from 'react';
-import Link from 'next/link';
-import { NewsletterSignup } from './NewsletterSignup'; // Assuming this component exists
-import { SocialLinks } from './SocialLinks'; // Assuming this component exists
+// components/common/Footer.tsx
 
-interface FooterLink {
-  label: string;
-  href: string;
-}
+import Link from "next/link"
 
-interface FooterSectionProps {
-  title: string;
-  links: FooterLink[];
-}
-
-const FooterSection: React.FC<FooterSectionProps> = ({ title, links }) => (
-  <div>
-    <h3 className="text-lg font-semibold mb-4">{title}</h3>
-    <ul>
-      {links.map((link, index) => (
-        <li key={index} className="mb-2">
-          <Link href={link.href} className="hover:underline">
-            {link.label}
-          </Link>
-        </li>
-      ))}
-    </ul>
-  </div>
-);
-
-export const Footer: React.FC = () => {
-  const aboutLinks = [
-    { label: 'About Us', href: '/about' },
-    { label: 'Our Mission', href: '/mission' },
-    { label: 'Team', href: '/team' },
-    { label: 'Careers', href: '/careers' },
-  ];
-
-  const resourcesLinks = [
-    { label: 'Guides', href: '/guides' },
-    { label: 'Blog', href: '/blog' },
-    { label: 'FAQ', href: '/faq' },
-    { label: 'Contact', href: '/contact' },
-  ];
-
-  const legalLinks = [
-    { label: 'Privacy Policy', href: '/privacy-policy' },
-    { label: 'Terms of Service', href: '/terms' },
-    { label: 'Cookie Policy', href: '/cookie-policy' },
-  ];
-
+export default function Footer() {
   return (
-    <footer className="bg-gray-800 text-gray-300 py-12">
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
-        {/* About Section */}
-        <FooterSection title="About" links={aboutLinks} />
+    <footer className="bg-green-50 border-t border-green-200 text-green-900">
+      <div className="container mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
 
-        {/* Resources Section */}
-        <FooterSection title="Resources" links={resourcesLinks} />
-
-        {/* Legal Section */}
-        <FooterSection title="Legal" links={legalLinks} />
-
-        {/* Newsletter & Social */}
+        {/* Logo & Mission */}
         <div>
-          <h3 className="text-lg font-semibold mb-4">Stay Connected</h3>
-          <NewsletterSignup />
-          <SocialLinks className="mt-6" />
+          <h2 className="text-xl font-bold">🌳 All Trees Listing</h2>
+          <p className="mt-2 text-sm">
+            Discover, protect, and plant every tree on Earth.
+          </p>
         </div>
-      </div>
 
-      <div className="text-center mt-8 text-sm text-gray-500">
-        © {new Date().getFullYear()} All Trees Listing. All rights reserved.
+        {/* Navigation */}
+        <div>
+          <h3 className="text-lg font-semibold mb-2">Explore</h3>
+          <ul className="space-y-1">
+            <li><Link href="/">Home</Link></li>
+            <li><Link href="/trees">All Trees</Link></li>
+            <li><Link href="/taxonomy">Taxonomy</Link></li>
+            <li><Link href="/map">Map</Link></li>
+            <li><Link href="/about">About</Link></li>
+            <li><Link href="/contact">Contact</Link></li>
+          </ul>
+        </div>
+
+        {/* Credits & Legal */}
+        <div className="text-sm">
+          <p>© {new Date().getFullYear()} All Trees Listing</p>
+          <p className="mt-1">Built with ❤️ using Next.js</p>
+          <div className="mt-4 flex space-x-4">
+            <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+            <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
+              Twitter
+            </a>
+          </div>
+        </div>
+
       </div>
     </footer>
-  );
-};
+  )
+}

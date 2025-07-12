@@ -1,0 +1,29 @@
+[
+  {
+    "slug": "azadirachta-indica",
+    "common_name": "Neem",
+    "scientific_name": "Azadirachta indica",
+    "family": "Meliaceae",
+    "region": "Indian subcontinent",
+    "conservation_status": "Least Concern",
+    "image": "/images/azadirachta-indica/main.jpg"
+  },
+  {
+    "slug": "melia-azedarach",
+    "common_name": "Chinaberry",
+    "scientific_name": "Melia azedarach",
+    "family": "Meliaceae",
+    "region": "Asia, Australia",
+    "conservation_status": "Least Concern",
+    "image": "/images/melia-azedarach/main.jpg"
+  },
+  {
+    "slug": "acacia-nilotica",
+    "common_name": "Babul",
+    "scientific_name": "Vachellia nilotica",
+    "family": "Fabaceae",
+    "region": "Africa, Middle East, Indian subcontinent",
+    "conservation_status": "Least Concern",
+    "image": "/images/acacia-nilotica/main.jpg"
+  }
+]

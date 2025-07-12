@@ -1,38 +1,27 @@
 import React from 'react';
-import Image from 'next/image';
 import Link from 'next/link';
+import Image from 'next/image';
+import { Tree } from '../../types/tree';
 
 interface TreeCardProps {
-  id: string;
-  name: string;
-  scientificName: string;
-  imageUrl: string;
-  region: string;
+  tree: Tree;
 }
 
-const TreeCard: React.FC<TreeCardProps> = ({
-  id,
-  name,
-  scientificName,
-  imageUrl,
-  region,
-}) => {
+const TreeCard: React.FC<TreeCardProps> = ({ tree }) => {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition-shadow duration-300">
-      <Link href={`/trees/${id}`}>
-        <div className="relative w-full h-48">
-          <Image
-            src={imageUrl}
-            alt={name}
-            layout="fill"
-            objectFit="cover"
-            className="transition-transform duration-300 hover:scale-105"
-          />
-        </div>
+    <div className="bg-white border rounded-lg shadow-sm hover:shadow-md transition">
+      <Link href={`/trees/${tree.slug}`}>
+        <Image
+          src={tree.imageUrl || '/treelistinglogo.png'} // Fallback image if none provided
+          alt={tree.commonName}
+          width={300} // Adjust as needed
+          height={160} // Adjust as needed, h-40 is 160px
+          className="w-full h-40 object-cover rounded-t-lg"
+        />
         <div className="p-4">
-          <h3 className="text-xl font-semibold text-green-800 mb-1">{name}</h3>
-          <p className="text-gray-600 italic text-sm mb-2">{scientificName}</p>
-          <p className="text-gray-700 text-sm">Region: {region}</p>
+          <h3 className="text-lg font-semibold">{tree.commonName}</h3>
+          <p className="text-sm italic">{tree.scientificName}</p>
+          <span className="text-xs text-green-600">{tree.status}</span>
         </div>
       </Link>
     </div>

@@ -1,0 +1,16 @@
+[
+  {
+    "code": "IN",
+    "name": "India",
+    "speciesCount": 2450,
+    "endangeredCount": 320,
+    "thumbnail": "/images/regions/india.jpg"
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "speciesCount": 320,
+    "endangeredCount": 45,
+    "thumbnail": "/images/regions/sri-lanka.jpg"
+  }
+]

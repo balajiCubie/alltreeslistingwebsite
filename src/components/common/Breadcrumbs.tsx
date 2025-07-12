@@ -2,8 +2,8 @@ import React from 'react';
 import Link from 'next/link';
 
 interface BreadcrumbItem {
-  label: string;
   href: string;
+  label: string;
 }
 
 interface BreadcrumbsProps {
@@ -12,7 +12,7 @@ interface BreadcrumbsProps {
 
 const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items }) => {
   return (
-    <nav className="text-gray-600 text-sm my-4" aria-label="breadcrumbs">
+    <nav className="text-sm text-gray-600 mb-8" aria-label="Breadcrumb">
       <ol className="list-none p-0 inline-flex">
         {items.map((item, index) => (
           <li key={item.href} className="flex items-center">
