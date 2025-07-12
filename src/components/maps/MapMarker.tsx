@@ -1,30 +1,27 @@
 import React from 'react';
 
 interface MapMarkerProps {
-  lat: number;
-  lng: number;
-  popupContent?: React.ReactNode;
+  coordinates: [number, number]; // [latitude, longitude]
+  label: string;
   onClick?: () => void;
 }
 
-const MapMarker: React.FC<MapMarkerProps> = ({ lat, lng, popupContent, onClick }) => {
-  // In a real map library integration, this component would likely render
-  // a custom marker on the map using the map library's API.
-  // For this placeholder, we'll just represent it as a div.
+export const MapMarker: React.FC<MapMarkerProps> = ({ coordinates, label, onClick }) => {
+  // In a real mapping library, you'd use the coordinates to position the marker.
+  // This is a simplified representation.
   return (
     <div
-      className="absolute transform -translate-x-1/2 -translate-y-1/2"
-      style={{ left: `${lng}%`, top: `${lat}%` }} // These would be calculated based on map projection
+      className="absolute bg-blue-500 text-white text-xs px-2 py-1 rounded-full cursor-pointer hover:bg-blue-600"
+      style={{
+        // These styles would be dynamically calculated based on map projection
+        // For now, just illustrative
+        top: `${coordinates[0] * 100}%`,
+        left: `${coordinates[1] * 100}%`,
+        transform: 'translate(-50%, -50%)',
+      }}
       onClick={onClick}
     >
-      <div className="w-4 h-4 bg-red-500 rounded-full border-2 border-white shadow-md cursor-pointer"></div>
-      {popupContent && (
-        <div className="absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 p-2 bg-white rounded-md shadow-lg text-sm whitespace-nowrap">
-          {popupContent}
-        </div>
-      )}
+      {label}
     </div>
   );
 };
-
-export default MapMarker;
